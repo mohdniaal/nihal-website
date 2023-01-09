@@ -3,6 +3,7 @@
   font-family: 'Montserrat';
   overflow: hidden;
 }
+
 .navbar {
   position: fixed;
   top: 20px;
@@ -10,6 +11,7 @@
   width: 100%;
   z-index: 100;
 }
+
 .navbar-content {
   display: flex;
   justify-content: space-around;
@@ -20,16 +22,19 @@
   opacity: .9;
   padding: 20px;
   color: white;
-  border-radius: 40px;
+  border-radius: 30px;
 }
+
 .navbar div:first-child {
   flex: 1;
 }
+
 .container {
   height: 100vh;
   display: flex;
   justify-content: center;
 }
+
 .left {
   width: 100%;
   position: relative;
@@ -37,32 +42,286 @@
   background-size: cover;
   height: 100%;
 }
+
 .right {
   width: 100%;
   position: relative;
   overflow-y: scroll;
+
 }
+
 .r-container {
   position: absolute;
   top: 130px;
   left: 0;
   margin: 0 60px;
+  padding: 25px;
 }
+
 .head-icons {
-  /* margin-left: 10px; */
   padding: 10px;
 }
+
+.head-icons svg {
+  width: 10px;
+  height: 10px;
+}
+
 .title {
   margin-top: 10px;
 }
+
 .subheading {
   color: #5a5858;
   font-family: 'Poppins';
-  font-size: 15px;
+  font-size: 13px;
 }
+
 .myself h1 {
   font-weight: bold;
 }
+
 .summary {
   margin-top: 20px;
+  font-size: 14px;
+}
+
+.aboutme {
+  margin-top: 20px;
+}
+
+.aboutme h3 {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.aboutme ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #5a5858;
+  font-size: 13px;
+}
+
+.services {
+  margin-top: 30px;
+}
+
+.services h3 {
+  font-weight: bold;
+  /* margin-top: 20px; */
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.services h5 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: medium;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+.services p {
+  font-size: 14px;
+  margin-top: 10px;
+
+}
+
+.experience {
+  margin-top: 30px;
+
+}
+
+.experience h3 {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.experience h4 {
+  margin-top: 10px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.experience p {
+  color: #5a5858;
+  font-family: 'Poppins';
+  font-size: 14px;
+
+}
+
+.education {
+  margin-top: 30px;
+
+}
+
+.education p {
+  font-size: smaller;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(90, 88, 88);
+
+}
+
+.education h3 {
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.education h4 {
+  margin-top: 10px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.blogs {
+  margin-top: 30px;
+}
+
+.card {
+  border: 1px solid red;
+}
+
+.card img {
+  width: 260px;
+  height: 160px;
+}
+
+.parallax p {
+  font-size: smaller;
+  font-family: 'Poppins', sans-serif;
+}
+
+.blog-items {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.blog-item {
+  width: 290px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+  background-color: #c5c1c198;
+  font-size: smaller;
+  font-family: 'Poppins', sans-serif;
+  color: rgb(90, 88, 88);
+}
+
+.blog-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.blog-item img {
+  width: 290px;
+  height: 160px;
+}
+
+.blog-content {
+  padding: 10px;
+}
+
+.blog-content * {
+  margin-top: 10px;
+}
+
+.blog-btn {
+  width: 80px;
+  padding: 10px;
+  background: #6c757d;
+  border-radius: 10px;
+}
+
+.blog-content p {
+  height: 100px;
+}
+
+.blog-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.blog-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-footer i {
+  align-items: center;
+  display: flex;
+}
+
+.skills {
+  margin-top: 30px;
+}
+
+.progress-bar-container:not(:last-child) {
+  margin-bottom: 50px;
+
+}
+
+/* Styling the h2 tag by giving color,
+      letter spacing, font-size etc.*/
+.progress-bar-container h2 {
+  font-family: 'Poppins';
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+
+/* Styling the border and box
+      effect of the progress bar*/
+.progress-bar {
+  width: 400px;
+  height: 10px;
+  margin-top: 10px;
+  border: 1px solid #565656;
+  border-radius: 5px;
+  background-color: grey;
+  z-index: 1000;
+
+  /* box-shadow: 0 0 10px black */
+}
+
+/* Stylingthe background color of each
+      animation and border radius */
+.percentage {
+
+  display: block;
+  height: 100%;
+  background-color: black;
+  border-radius: 5px;
+  animation: progress 2500ms ease-in 1;
+}
+
+/* Assigning width of each languages*/
+.html {
+  width: 85%;
+}
+
+.css {
+  width: 75%;
+}
+
+.angular {
+  width: 65%;
+}
+
+.bootstrap {
+  width: 75%;
+}
+
+.typescript {
+  width: 50%;
 }
