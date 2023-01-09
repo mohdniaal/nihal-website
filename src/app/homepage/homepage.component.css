@@ -1,0 +1,68 @@
+.main {
+  position: relative;
+  font-family: 'Montserrat';
+  overflow: hidden;
+}
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.navbar-content {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 900px;
+  gap: 20px;
+  background-color: grey;
+  opacity: .9;
+  padding: 20px;
+  color: white;
+  border-radius: 40px;
+}
+.navbar div:first-child {
+  flex: 1;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.left {
+  width: 100%;
+  position: relative;
+  background-image: url('/assets/profile-pic.jpg');
+  background-size: cover;
+  height: 100%;
+}
+.right {
+  width: 100%;
+  position: relative;
+  overflow-y: scroll;
+}
+.r-container {
+  position: absolute;
+  top: 130px;
+  left: 0;
+  margin: 0 60px;
+}
+.head-icons {
+  /* margin-left: 10px; */
+  padding: 10px;
+}
+.title {
+  margin-top: 10px;
+}
+.subheading {
+  color: #5a5858;
+  font-family: 'Poppins';
+  font-size: 15px;
+}
+.myself h1 {
+  font-weight: bold;
+}
+.summary {
+  margin-top: 20px;
+}
