@@ -10,6 +10,7 @@
   left: 0;
   width: 100%;
   z-index: 100;
+  cursor: pointer;
 }
 
 .navbar-content {
@@ -347,18 +348,36 @@
   .progress-bar {
     width: 80%;
   }
-
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .navbar-content {
-    /* position: fixed;
-    top: 20px;
-    width: 50px;*/
     width: 50%;
     left: 0;
     position: relative;
-
   }
+}
 
+@media screen and (max-width:800px) {
+  .left {
+    display: none;
+  }
+  .r-container{
+    /* display: flex; */
+    margin: 0 20px;
+  }
+.blog-item{
+  /* display: block; */
+  /* width: fit-content; */
+}
+
+  .navbar{
+    display: none;
+  }
+}
+@media screen and (max-width:350px) {
+  .r-container{
+    margin: 0 10px;
+  } 
+  
 }

@@ -2,10 +2,10 @@
   <div class="navbar">
     <div class="navbar-content">
       <div class="navbtn">Muhammed Nihal</div>
-      
-      <div class="navbtn">About</div>
-      <div class="navbtn">Service</div>
-      <div class="navbtn">Resume</div>
+
+      <div class="navbtn" onclick="document.getElementById('first').scrollIntoView()"> About</div>
+      <div class="navbtn" onclick="document.getElementById('second').scrollIntoView()">Service</div>
+      <div class="navbtn" onclick="document.getElementById('third').scrollIntoView()">Resume</div>
     </div>
   </div>
   <div class="container">
@@ -29,7 +29,7 @@
           <div class="title subheading">
             SOFTWARE DEVELOPER &nbsp; |&nbsp; WEB DEVELOPER &nbsp; |&nbsp; ANGULAR DEVELOPER
           </div>
-          <div class="summary">
+          <div class="summary" id="first">
             An enterprising web developer, skilled in developing and deploying high
             quality applications in a single page (SPAs) using frameworks like Angular. Highly
             reliable resource with excellent analytical, communication and inter-personal skills.
@@ -51,14 +51,14 @@
           </p>
 
           <ul>
-            <li style="   font-family: 'Poppins', sans-serif;
+            <li id="second" style="   font-family: 'Poppins', sans-serif;
               ">AGE &nbsp;&nbsp;&nbsp;&nbsp; : 22</li>
-            <li style="   font-family: 'Poppins', sans-serif;
+            <li  style="   font-family: 'Poppins', sans-serif;
               ">EMAIL &nbsp; : mohdniaal@gmail.com</li>
-            <li style="   font-family: 'Poppins', sans-serif;
+            <li  style="   font-family: 'Poppins', sans-serif;
               ">PHONE &nbsp;: 9567336429</li>
 
-          </ul>
+          </ul >
 
         </div>
 
@@ -66,7 +66,7 @@
           <h3>
             Services
           </h3>
-          <div class="subheading">
+          <div class="subheading" >
             WHAT I DO?</div>
           <div class="web">
             <h5>
@@ -89,9 +89,9 @@
           </div>
           <div class="photography">
             <h5>
-              <i style="font-size: medium;   color: rgb(90, 88, 88);
+              <i id="third" style="font-size: medium;   color: rgb(90, 88, 88);
                     ;" class="fa fa-camera	
-            "></i>
+            "></i> 
               Photography & Video
             </h5>
             <p>
