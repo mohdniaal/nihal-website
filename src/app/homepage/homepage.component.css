@@ -51,6 +51,18 @@
 
 }
 
+.profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-size: cover;
+}
+
+.profile {
+  display: none;
+  justify-content: center;
+}
+
 .r-container {
   position: absolute;
   top: 130px;
@@ -76,6 +88,10 @@
   color: #5a5858;
   font-family: 'Poppins';
   font-size: 13px;
+}
+
+.myself span{
+  font-size: large;
 }
 
 .myself h1 {
@@ -151,7 +167,8 @@
   margin-left: 20px;
   margin-top: 20px;
   color: #5a5858;
-  font-size: 13px;}
+  font-size: 13px;
+}
 
 .experience p {
   color: #5a5858;
@@ -165,7 +182,7 @@
 
 }
 
-.education ul{
+.education ul {
   margin-left: 20px;
   margin-top: 20px;
   color: #5a5858;
@@ -373,10 +390,22 @@
     display: none;
     background-color: #565656;
   }
+  .profile {
+    display: flex;
+
+  }
 
   .r-container {
-    /* display: flex; */
     margin: 0 20px;
+    top:20px
+  }
+
+  .myself{
+    margin-top: 30px;
+  }
+
+  .myself a{
+    font-size: medium;
   }
 
   .navbar {
