@@ -121,7 +121,6 @@
   font-size: medium;
   font-family: 'Poppins', sans-serif;
 
-
 }
 
 .services p {
@@ -148,6 +147,12 @@
 
 }
 
+.experience ul {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #5a5858;
+  font-size: 13px;}
+
 .experience p {
   color: #5a5858;
   font-family: 'Poppins';
@@ -158,6 +163,13 @@
 .education {
   margin-top: 30px;
 
+}
+
+.education ul{
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #5a5858;
+  font-size: 13px;
 }
 
 .education p {
@@ -264,16 +276,17 @@
   display: flex;
 }
 
+
+
 .skills {
   margin-top: 30px;
+  /* position: ; */
 }
 
 .progress-bar-container:not(:last-child) {
   margin-bottom: 50px;
 }
 
-/* Styling the h2 tag by giving color,
-      letter spacing, font-size etc.*/
 .progress-bar-container h2 {
   font-family: 'Poppins';
   letter-spacing: 1px;
@@ -281,8 +294,7 @@
   font-weight: bold;
 }
 
-/* Styling the border and box
-      effect of the progress bar*/
+
 .progress-bar {
   width: 400px;
   height: 10px;
@@ -293,8 +305,7 @@
   z-index: 1000;
 }
 
-/* Stylingthe background color of each
-      animation and border radius */
+
 .percentage {
   display: block;
   height: 100%;
@@ -303,7 +314,6 @@
   animation: progress 2500ms ease-in 1;
 }
 
-/* Assigning width of each languages*/
 .html {
   width: 85%;
 }
@@ -361,23 +371,22 @@
 @media screen and (max-width:800px) {
   .left {
     display: none;
+    background-color: #565656;
   }
-  .r-container{
+
+  .r-container {
     /* display: flex; */
     margin: 0 20px;
   }
-.blog-item{
-  /* display: block; */
-  /* width: fit-content; */
-}
 
-  .navbar{
+  .navbar {
     display: none;
   }
 }
+
 @media screen and (max-width:350px) {
-  .r-container{
+  .r-container {
     margin: 0 10px;
-  } 
-  
+  }
+
 }
