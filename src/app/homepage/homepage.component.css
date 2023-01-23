@@ -37,11 +37,13 @@
 }
 
 .left {
-  width: 100%;
+  width: 500px;
+  height: 280px;
   position: relative;
-  background-image: url('/assets/profile-pic 2.jpg');
+  background-image: url('../../assets/r2.jpg');
   background-size: cover;
-  height: 100%;
+  margin: 12%;
+  border-radius: 100%;
 }
 
 .right {
@@ -90,7 +92,7 @@
   font-size: 13px;
 }
 
-.myself span{
+.myself span {
   font-size: large;
 }
 
@@ -390,6 +392,7 @@
     display: none;
     background-color: #565656;
   }
+
   .profile {
     display: flex;
 
@@ -397,14 +400,14 @@
 
   .r-container {
     margin: 0 20px;
-    top:20px
+    top: 20px
   }
 
-  .myself{
+  .myself {
     margin-top: 30px;
   }
 
-  .myself a{
+  .myself a {
     font-size: medium;
   }
 
@@ -419,4 +422,3 @@
   }
 
 }
-
