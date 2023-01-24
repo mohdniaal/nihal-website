@@ -37,13 +37,16 @@
 }
 
 .left {
-  width: 500px;
-  height: 280px;
+  width: 300px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 170px;
   position: relative;
   background-image: url('../../assets/r2.jpg');
   background-size: cover;
-  margin: 12%;
-  border-radius: 100%;
+display: block;
+
+
 }
 
 .right {
@@ -356,7 +359,8 @@
 @media screen and (max-width: 1300px) {
   .left {
     /* display: none; */
-    width: 70%;
+    /* width: 70%; */
+    /* width: 200px; */
     position: relative;
   }
 
@@ -384,6 +388,14 @@
     width: 50%;
     left: 0;
     position: relative;
+    
+  }
+
+  .left {
+    /* position: relative; */
+    display: flex;
+    width: 390px; 
+    /* margin: 120px; */
   }
 }
 
@@ -399,7 +411,7 @@
   }
 
   .r-container {
-    margin: 0 20px;
+    margin: 20px;
     top: 20px
   }
 
