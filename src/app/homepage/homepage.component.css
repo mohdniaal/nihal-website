@@ -37,8 +37,8 @@
 }
 
 .left {
-  /* width: 300px;
-  height: 200px;
+   width: 600px;
+  /*height: 200px;
   border-radius: 100%;
   margin: 170px;
   position: relative;
@@ -48,10 +48,10 @@
 
 .l-container {
   background-image: url('../../assets/r2.jpg');
-  width: 300px;
-  height: 300px;
+  width: 230px;
+  height: 230px;
   border-radius: 100%;
-  margin: 170px;
+  margin: 210px;
   position: relative;
   background-size: cover;
   display: block;
@@ -373,7 +373,8 @@
     /* position: relative; */
   }
   .l-container{
-    position: relative;;
+    position: relative;
+    margin: 210px;
   }
 
   .right {
@@ -402,24 +403,26 @@
     position: relative;
 
   }
-
-  .left {
-    position: relative;
-    /* display: flex;
-    width: 390px; */
-    /* margin: 120px; */
+  .left{
+    /* position: relative; */
+    width:400px;
   }
   .l-container{
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     border-radius: 100%;
-    margin: 170px;
-    display: block;
+    margin:155px;
+    margin-top: 210px;
+    /* display: block; */
   }
+  .right{
+    width: 50%;
+  }
+  
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:840px) {
   .left {
     display: none;
     background-color: #565656;
