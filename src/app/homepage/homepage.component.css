@@ -51,10 +51,12 @@
   width: 230px;
   height: 230px;
   border-radius: 100%;
-  margin: 210px;
+  margin: 220px;
   position: relative;
   background-size: cover;
   display: block;
+  margin-top: 230px;
+  
 
 }
 
@@ -374,7 +376,8 @@
   }
   .l-container{
     position: relative;
-    margin: 210px;
+    margin: 220px;
+    margin-top: 230px;
   }
 
   .right {
@@ -412,8 +415,8 @@
     width: 230px;
     height: 230px;
     border-radius: 100%;
-    margin:155px;
-    margin-top: 210px;
+    margin:165px;
+    margin-top: 230px;
     /* display: block; */
   }
   .right{
