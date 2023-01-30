@@ -1,8 +1,19 @@
 <div class="main">
   <div class="navbar">
     <div class="navbar-content">
-      <div class="navbtn">Muhammed Nihal</div>
-      <div class="navbtn" onclick="document.getElementById('first').scrollIntoView()"> About</div>
+      <div class="navbtn">
+        <!-- <img src="../../assets/images.png" >  -->
+       <span> Muhammed Nihal</span>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" >About</button>
+        <div class="dropdown-content">
+          <a onclick="document.getElementById('first').scrollIntoView()">About</a>
+          <a onclick="document.getElementById('second').scrollIntoView()">Service</a>
+          <a onclick="document.getElementById('third').scrollIntoView()">Resume</a>
+        </div>
+      </div>
+      <!-- <div class="navbtn" onclick="document.getElementById('first').scrollIntoView()"> About</div> -->
       <div class="navbtn" onclick="document.getElementById('second').scrollIntoView()">Service</div>
       <div class="navbtn" onclick="document.getElementById('third').scrollIntoView()">Resume</div>
     </div>
@@ -15,7 +26,7 @@
     <div class="right">
       <div class="r-container">
         <div class="profile">
-            <img src="../../assets/profile-pic 2.jpg" alt="">
+          <img src="../../assets/profile-pic 2.jpg" alt="">
         </div>
 
         <div class="myself">
@@ -32,7 +43,7 @@
             </span>
           </h1>
           <div class="title subheading" id="first">
-            SOFTWARE DEVELOPER &nbsp; |&nbsp; WEB DEVELOPER &nbsp; |&nbsp; ANGULAR DEVELOPER
+            SOFTWARE DEVELOPER &nbsp; |&nbsp; FRONT-END DEVELOPER &nbsp; |&nbsp; ANGULAR DEVELOPER
           </div>
           <div class="summary">
             An enterprising web developer, skilled in developing and deploying high
