@@ -4,8 +4,8 @@ import { AnimComponent } from './anim/anim.component';
 import { HomepageComponent } from './homepage/homepage.component';
 
 const routes: Routes = [
-  {path:'',component:AnimComponent},
-  {path:'home',component:HomepageComponent},
+  { path: '', component: AnimComponent },
+  { path: 'home', component: HomepageComponent },
 ];
 
 @NgModule({

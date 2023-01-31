@@ -16,4 +16,10 @@ export class AnimComponent {
       this.router.navigate(['/home']);
     }, 2500);  //5s
   }
+  
+  //refresh function
+
+  refresh(): void {
+    window.location.reload();
+  }
 }

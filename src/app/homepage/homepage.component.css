@@ -8,7 +8,7 @@
 
 .navbar {
   position: fixed;
-  top: 40px;
+  top: 20px;
   left: 0;
   width: 100%;
   z-index: 100;
@@ -89,6 +89,7 @@
 
 .left {
    width: 500px;
+
   /*height: 200px;
   border-radius: 100%;
   margin: 170px;
@@ -104,12 +105,22 @@
   border: rgb(219, 216, 216) 7px solid;
   border-radius: 100%;
   margin: 220px;
-  position: relative;
+  /* position: relative; */
   background-size: cover;
   display: block;
   margin-top: 230px;
-  
+  transition: transform .2s;
+}
 
+.l-container:hover{
+  transform: scale(1.1); 
+
+}
+
+
+
+.head{
+  margin: 220px;
 }
 
 .right {
@@ -364,7 +375,7 @@
 
 
 .skills {
-  margin-top: 30px;
+  margin-top: 40px;
   /* position: ; */
 }
 
@@ -383,7 +394,7 @@
 .progress-bar {
   width: 400px;
   height: 10px;
-  margin-top: 10px;
+  margin-top: 2px;
   margin-bottom: 70px;
   border: 1px solid #565656;
   border-radius: 5px;
@@ -421,12 +432,12 @@
 }
 
 @media screen and (max-width: 1300px) {
-  .left {
+  /* .left { */
     /* display: none; */
     /* width: 70%; */
     /* width: 200px; */
     /* position: relative; */
-  }
+  /* } */
   .l-container{
     position: relative;
     margin: 220px;
