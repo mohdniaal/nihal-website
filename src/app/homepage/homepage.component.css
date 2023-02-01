@@ -1,9 +1,6 @@
 .main {
   position: relative;
   font-family: 'Montserrat';
-  /* overflow: hidden; */
-  /* height: 650px; */
-  /* border: 32px solid rgb(89, 88, 88); */
 }
 
 .navbar {
@@ -28,29 +25,26 @@
   border-radius: 35px;
 }
 
-.navbtn span{
+.navbtn span {
   margin-bottom: 20px;
 }
 
-.navbtn img{
+.navbtn img {
   height: 30px;
   width: 30px;
 }
 
-/* dropdown */
 .dropbtn {
   color: white;
   font-size: 16px;
   border: none;
   font-family: 'Montserrat';
   background-color: gray;
-
 }
 
 .dropdown {
   position: relative;
   display: inline-block;
-  
 }
 
 .dropdown-content {
@@ -58,7 +52,7 @@
   position: absolute;
   background-color: grey;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 5px;
 }
@@ -71,11 +65,9 @@
   font-family: 'Montserrat';
 }
 
-/* .dropdown-content a:hover {background-color: #ddd;} */
-
-.dropdown:hover .dropdown-content {display: block;}
-
-/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 .navbar div:first-child {
   flex: 1;
@@ -88,14 +80,7 @@
 }
 
 .left {
-   width: 500px;
-
-  /*height: 200px;
-  border-radius: 100%;
-  margin: 170px;
-  position: relative;
-  background-size: cover;
-  display: block; */
+  width: 500px;
 }
 
 .l-container {
@@ -105,21 +90,20 @@
   border: rgb(219, 216, 216) 7px solid;
   border-radius: 100%;
   margin: 220px;
-  /* position: relative; */
   background-size: cover;
   display: block;
   margin-top: 230px;
   transition: transform .2s;
 }
 
-.l-container:hover{
-  transform: scale(1.1); 
+.l-container:hover {
+  transform: scale(1.1);
 
 }
 
 
 
-.head{
+.head {
   margin: 220px;
 }
 
@@ -318,7 +302,6 @@
   justify-content: center;
   position: relative;
   flex-direction: column;
-  /* align-items: center; */
   background-color: #c5c1c198;
   font-size: smaller;
   font-family: 'Poppins', sans-serif;
@@ -333,7 +316,6 @@
 }
 
 .blog-item img {
-  /* position: absolute; */
   width: 290px;
   height: 160px;
 }
@@ -376,7 +358,6 @@
 
 .skills {
   margin-top: 40px;
-  /* position: ; */
 }
 
 .progress-bar-container:not(:last-child) {
@@ -439,15 +420,7 @@
     position: relative;
   }
 
-
-  /* .main{
-    position: relative;
-    font-family: 'Montserrat';
-    overflow: hidden;
-  } */
-
-
-  .l-container{
+  .l-container {
     position: relative;
     margin: 220px;
     margin-top: 230px;
@@ -479,43 +452,46 @@
     position: relative;
 
   }
-  .left{
-    /* position: relative; */
-    width:400px;
+
+  .left {
+    width: 400px;
+
   }
-  .l-container{
+
+  .l-container {
     position: relative;
     width: 150px;
     height: 150px;
     border-radius: 100%;
-    margin:190px;
+    margin: 190px;
     margin-top: 230px;
-    /* display: block; */
+
   }
-  .right{
+
+  .right {
     width: 70%;
   }
-  
+
 }
 
 @media screen and (max-width:840px) {
-  .main{
+  .main {
     border: none;
     overflow-x: hidden;
   }
+
   .left {
     display: none;
     background-color: #565656;
     width: 0;
   }
 
-  .right{
+  .right {
     width: 100%;
   }
 
   .profile {
     display: flex;
-
   }
 
   .r-container {
